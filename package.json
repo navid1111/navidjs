@@ -1,0 +1,12 @@
+{
+  "name": "navidjs",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tiny Didact-like runtime demo",
+  "scripts": {
+    "start": "npx http-server -c-1 ."
+  },
+  "author": "",
+  "license": "MIT"
+}
