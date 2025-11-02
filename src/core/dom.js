@@ -29,7 +29,7 @@ export function updateDom(dom, prevProps, nextProps) {
       }
     });
 
-  // Remove old properties
+  // Remove old properties that does not exist anymore
   Object.keys(prevProps)
     .filter(isProperty)
     .forEach(name => {

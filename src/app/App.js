@@ -1,4 +1,4 @@
-import { createElement } from "../core/didact.js";
+import { createElement } from "../core/navid.js";
 
 export default function App(props) {
   // Use createElement directly to avoid JSX setup
